@@ -1,21 +1,18 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import styles from '../App/App.scss';
+import styles from '../Hero/Hero.scss';
 
 const Hero = props => (
-    <div>
-    <header className={styles.title}>
-    <h2 className={styles.title}>{props.titleText}</h2>
-    <img {props.titleLink}/>
-    
-    </header>
-    </div>
-    );
-    
-    Hero.propTypes = {
-        titleText: PropTypes.node,
-        title: PropTypes.node,
-        children: PropTypes.node,
-        };
 
+    <header className={styles.component}>
+    <h2 className={styles.title}>{props.titleText}</h2>
+    <img className={styles.image} />
+    </header>
+    );
+
+    Hero.propTypes = {
+        titleText: PropTypes.node.isRequired,
+    };
+    
+    
     export default Hero;
