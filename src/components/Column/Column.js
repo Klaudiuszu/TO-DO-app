@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Column.scss';
-import Hero from '../Hero/Hero';
+import Card from '../Card/Card';
 
 class Column extends React.Component {
 
