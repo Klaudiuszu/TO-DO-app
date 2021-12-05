@@ -3,8 +3,6 @@ import styles from './Column.scss';
 import Hero from '../Hero/Hero';
 
 class Column extends React.Component {
-    
-    
 
     render() {
         const {title} = this.props;
