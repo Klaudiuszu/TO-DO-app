@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../Card/Card.scss';
+import PropTypes from 'prop-types';
 
 
 class Card extends React.Component {
@@ -11,9 +12,13 @@ class Card extends React.Component {
     }
 
     render(){
-
+        console.log(this.props)
         const {title} = this.props;
+        return(
 
+        <div>{title}</div>
+
+        )
     }
 
 }
