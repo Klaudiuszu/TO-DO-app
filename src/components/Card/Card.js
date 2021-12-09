@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Card.scss';
 
 
 class Card extends React.Component {
 
   static propTypes = {
-    title:  PropTypes.node.isRequired,
-    description: PropTypes.node,
-    columns: PropTypes.array,
+    title:  PropTypes.node,
   };
 
   render(){
@@ -15,7 +14,9 @@ class Card extends React.Component {
     const {title} = this.props;
     return(
 
-      <div>{title}</div>
+      <section className={styles.component}>
+        <h3>{title}</h3>
+      </section>
 
     );
   }
