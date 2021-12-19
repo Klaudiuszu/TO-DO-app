@@ -1,4 +1,17 @@
 export const settings = {
+
+  faq: {
+    titleText: 'FAQ',
+    image: 'https://www.solojuve.com/media/com_easysocial/photos/166/306/364041db7f04bc4f2d1ba90e055e3518_thumbnail.jpg',
+    text: 'chylące się ku upadkowi pod wpływem wiatrów wojny i niepokojów szalejących na jego ziemiach. Przeżyj wydarzenia, które ukształtowały oryginalną fabułę z gier serii Gothic i zobacz na własne oczy, jak powstanie Kolonii Górniczej wpłynęło na życie ludzi z dala od kontynentu. Pozostaw po sobie ślad w brutalnym świecie, w którym każda twoja decyzja ma wyraźny wpływ na otoczenie i życie tych, których spotykasz na swojej drodze.',
+  },
+
+  info: {
+    titletext: 'info',
+    image: 'https://images.igdb.com/igdb/image/upload/t_original/czakchenhdwrawuzl6w3.jpg',
+    text: 'Main goal of this project is to honour one the best classic cRPG and take the die-hard fans of the original Gothic trilogy as well as new players on one more adventure in the Kingdom of Myrtana.',
+  },
+
   columnCreatorText: 'Add new column',
   cardCreatorText: 'Add new card',
   creator: {

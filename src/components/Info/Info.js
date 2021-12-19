@@ -1,10 +1,12 @@
 import React from 'react';
 import Container from '../Container/Container';
+import Hero from '../Hero/Hero';
+import { settings } from '../../data/dataStore';
 
 const Info = () => (
   <Container>
-    <h2>Info</h2>
-    <p>TMP TEKST</p>
+    <Hero titleText={settings.info.titletext} image={settings.info.image}/>
+    <p>{settings.info.text}</p>
   </Container>
 );
 
