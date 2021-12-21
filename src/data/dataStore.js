@@ -92,6 +92,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Waiting for update signal from WDS... <sup>soon!</sup>',
+    description: 'Zmiany w komponencie Home',
+    image: 'https://i1.sndcdn.com/avatars-000770743657-vl9sac-t500x500.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Waiting for update signal from WDS... <sup>soon!</sup>',
+    description: 'Zmiany w komponencie Home',
+    image: 'https://www.wykop.pl/cdn/c3201142/comment_HDi1OMnDGQuFSqekcEpQg4OrlVwxBNgF,w1200h627f.jpg',
+  },
 ];
 
 const columns = [
