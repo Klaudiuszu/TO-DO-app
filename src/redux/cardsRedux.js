@@ -4,6 +4,8 @@ import shortid from 'shortid';
 
 export const getCardsForColumn = ({cards, searchString}, columnId) => cards.filter(card => new RegExp(searchString, 'i').test(card.title) && card.columnId == columnId);
 
+export const getCardsForSearchResults = ({cards}, value) => cards.filter(card => new RegExp(value, 'i').test(card.title));
+
 
 // action name creator
 const reducerName = 'cards';
